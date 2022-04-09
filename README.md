@@ -1,9 +1,9 @@
-# Landing page for CS students at Texas State University
-Pull requests are encouraged to add resources.
+# Resources for CS students at Texas State University
+To contribute, please make a pull request.
 
 
 
+<br><br><br><br><br><br>
+Free to duplicate, use, or modify.
 
-Free to use and modify by any other university
-
-Bootstrap template source: https://startbootstrap.com/template/modern-business 
+Original Bootstrap template [here](https://startbootstrap.com/template/modern-business)
