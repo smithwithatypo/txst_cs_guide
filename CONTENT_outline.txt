@@ -1,0 +1,82 @@
+CS survival guide outline
+
+NAVBAR
+- beginner
+- advanced
+- Clubs,
+- Jobs
+
+BEGINNER
+- catsweb
+https://www.catsweb.txstate.edu/students.html 
+- cs txst homepage
+https://cs.txstate.edu
+- rate my professor
+https://www.ratemyprofessors.com/search/teachers?query=*&sid=938 
+- hb2504 for CS classes
+https://hb2504.txstate.edu/browsecourses.html#CS 
+- CS50
+https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0 
+- Crash Course Computer Science
+https://www.youtube.com/playlist?list=PLME-KWdxI8dcaHSzzRsNuOLXtM2Ep_C7a 
+- linux canvas homepage
+https://canvas.txstate.edu/courses/1697110
+- CS pre-requisite flowchart
+https://www.cose.txstate.edu/advising/cose-majors-and-minors/flowcharts.html
+- google tech dev guide
+https://techdevguide.withgoogle.com 
+- LinkedIn Learning - free with school login
+https://www.linkedin.com/learning/
+
+ADVANCED
+- google tech dev guide
+https://techdevguide.withgoogle.com 
+- LinkedIn Learning - free with school login
+https://www.linkedin.com/learning/
+- google cloud training
+https://cloud.google.com/training 
+- Kaggle (data science and ML)
+https://www.kaggle.com/learn
+- Odin Project
+https://www.theodinproject.com 
+- leetcode
+https://leetcode.com/problemset/all/ 
+- grokking the coding interview
+https://www.educative.io/courses/grokking-the-coding-interview 
+- CTCI
+https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850 
+- princton algorithms (advanced, free)
+https://www.coursera.org/learn/algorithms-part1 
+- MIT OCW intro to algorithms (lecture and notes and videos)
+https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/ 
+- CIE (for entrepreneurs)
+https://innovation.txstate.edu
+- open source guide
+https://www.firsttimersonly.com
+- SQL bolt
+https://sqlbolt.com 
+- MIT missing semester
+https://missing.csail.mit.edu 
+
+CLUBS
+- EXE
+discord: https://discord.gg/EtHpZEHjVf 
+- GWC
+discord: https://discord.gg/sNkqsHvPkJ 
+groupme: 
+canvas: 
+- GDSC
+canvas: 
+slack: 
+
+JOBS
+- TXST CS Job Hunting Handbook
+https://docs.google.com/document/d/14OXgCGWFL19v4rOUukmBJLPCyTHPKvCDzZqefsoeGag/edit#heading=h.9cl1g9xctlzs
+- levels.fyi
+https://www.levels.fyi/ 
+- glassdoor
+https://www.glassdoor.com/member/home/index.htm 
+
+Needs we hear:
+- how to use discord
+- how to use IDE’s
