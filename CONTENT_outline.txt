@@ -59,15 +59,16 @@ https://sqlbolt.com
 https://missing.csail.mit.edu 
 
 CLUBS
+** to protect privacy, we won't add links here on github **
 - EXE
-discord: https://discord.gg/EtHpZEHjVf 
+discord
 - GWC
-discord: https://discord.gg/sNkqsHvPkJ 
-groupme: 
-canvas: 
+discord 
+groupme 
+canvas
 - GDSC
-canvas: 
-slack: 
+canvas 
+slack 
 
 JOBS
 - TXST CS Job Hunting Handbook
