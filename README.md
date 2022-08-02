@@ -1,5 +1,6 @@
 # Resources for CS students at Texas State University
 To contribute, please make a pull request.
+See website here:   http://www.txstcsstudentguide.com 
 
 
 
