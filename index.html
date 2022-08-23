@@ -7,31 +7,19 @@
         <meta name="author" content="" />
         <title>TXST CS Student Guide</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="./css/styles.css" rel="stylesheet" />
+        <script src="./components/navigation/navigation.js" type="text/javascript" defer></script>
+        <script src="./components/footer/footer.js" type="text/javascript" defer></script>
     </head>
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
 
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">TXST CS Student Guide</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="beginner.html">Beginner</a></li>
-                            <li class="nav-item"><a class="nav-link" href="advanced.html">Advanced</a></li>
-                            <li class="nav-item"><a class="nav-link" href="clubs.html">Clubs</a></li>
-                            <li class="nav-item"><a class="nav-link" href="jobs.html">Jobs</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
+            <navigation-component></navigation-component>
             <!-- Header-->
             <header class="bg-dark py-5">
                 <div class="container px-5">
@@ -45,7 +33,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="/assets/CS-pic.jpeg" alt="..." /></div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="./assets/CS-pic.jpeg" alt="..." /></div>
                     </div>
                 </div>
             </header>
@@ -93,20 +81,7 @@
         </main>
 
         <!-- Footer-->
-        <footer class="bg-dark py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Last Updated April 2022</div></div>
-                    <div class="col-auto">
-                        <a class="link-light small" href="https://cs.txstate.edu" target="_blank" rel="noopener noreferrer">TXST CS</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="https://github.com/smithwithatypo/txst_cs_guide" target="_blank" rel="noopener noreferrer">Github</a>
-
-                    </div>
-                </div>
-            </div>
-        </footer>
-
+        <footer-component></footer-component>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
