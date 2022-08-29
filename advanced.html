@@ -7,30 +7,18 @@
         <meta name="author" content="" />
         <title>TXST CS Survival Guide</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="./css/styles.css" rel="stylesheet" />
+        <script src="./components/navigation/navigation.js" type="text/javascript" defer></script>
+        <script src="./components/footer/footer.js" type="text/javascript" defer></script>
     </head>
     <body class="d-flex flex-column">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html">TXST CS Student Guide</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="beginner.html">Beginner</a></li>
-                            <li class="nav-item"><a class="nav-link" href="advanced.html">Advanced</a></li>
-                            <li class="nav-item"><a class="nav-link" href="clubs.html">Clubs</a></li>
-                            <li class="nav-item"><a class="nav-link" href="jobs.html">Jobs</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
+            <navigation-component></navigation-component>
             <!-- Card section-->
             <section class="bg-light py-5">
                 <div class="container px-5 my-5">
@@ -43,7 +31,7 @@
                         <!-- CARD -->
                         <div class="col-lg-6 col-xl-4">
                             <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
+                                <div class="card-body p-5 d-flex flex-column">
                                     <div class="mb-3">
                                         <span class="display-6 fw-bold">Google Tech Guide</span>
                                     </div>
@@ -56,14 +44,16 @@
                                             designed by Google to get you a job at Google
                                         </li>
                                     </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="https://techdevguide.withgoogle.com" target="_blank" rel="noopener noreferrer">Go</a></div>
+                                    <a href="https://techdevguide.withgoogle.com" class="btn btn-lg btn-block btn-outline-primary mt-auto" role="button" target="_blank" rel="noopener noreferrer">
+                                        Go
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <!-- CARD -->
                         <div class="col-lg-6 col-xl-4">
                             <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
+                                <div class="card-body p-5 d-flex flex-column">
                                     <div class="mb-3">
                                         <span class="display-6 fw-bold">LinkedIn Learning</span>
                                     </div>
@@ -80,14 +70,16 @@
                                             (log in with netID)
                                         </li>
                                     </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="https://www.linkedin.com/learning/" target="_blank" rel="noopener noreferrer">Go</a></div>
+                                    <a href="https://www.linkedin.com/learning/" class="btn btn-lg btn-block btn-outline-primary mt-auto" role="button" target="_blank" rel="noopener noreferrer">
+                                        Go
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <!-- CARD -->
                         <div class="col-lg-6 col-xl-4">
                             <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
+                                <div class="card-body p-5 d-flex flex-column">
                                     <div class="mb-3">
                                         <span class="display-6 fw-bold">Google Cloud</span>
                                     </div>
@@ -100,14 +92,16 @@
                                             learn about Cloud, AI/ML, Infrastructure, Security, and others
                                         </li>
                                     </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="https://cloud.google.com/training" target="_blank" rel="noopener noreferrer">Go</a></div>
+                                    <a href="https://cloud.google.com/training" class="btn btn-lg btn-block btn-outline-primary mt-auto" role="button" target="_blank" rel="noopener noreferrer">
+                                        Go
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <!-- CARD -->
                         <div class="col-lg-6 col-xl-4">
                             <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
+                                <div class="card-body p-5 d-flex flex-column">
                                     <div class="mb-3">
                                         <span class="display-6 fw-bold">Kaggle</span>
                                     </div>
@@ -128,14 +122,16 @@
                                             use free datasets
                                         </li>
                                     </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="https://www.kaggle.com/learn" target="_blank" rel="noopener noreferrer">Go</a></div>
+                                    <a href="https://www.kaggle.com/learn" class="btn btn-lg btn-block btn-outline-primary mt-auto" role="button" target="_blank" rel="noopener noreferrer">
+                                        Go
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <!-- CARD -->
                         <div class="col-lg-6 col-xl-4">
                             <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
+                                <div class="card-body p-5 d-flex flex-column">
                                     <div class="mb-3">
                                         <span class="display-6 fw-bold">SQL Bolt</span>
                                     </div>
@@ -152,14 +148,16 @@
                                             learn databases
                                         </li>
                                     </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="https://sqlbolt.com" target="_blank" rel="noopener noreferrer">Go</a></div>
+                                    <a href="https://sqlbolt.com" class="btn btn-lg btn-block btn-outline-primary mt-auto" role="button" target="_blank" rel="noopener noreferrer">
+                                        Go
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <!-- CARD -->
                         <div class="col-lg-6 col-xl-4">
                             <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
+                                <div class="card-body p-5 d-flex flex-column">
                                     <div class="mb-3">
                                         <span class="display-6 fw-bold">Odin Project</span>
                                     </div>
@@ -176,14 +174,16 @@
                                             make resume projects
                                         </li>
                                     </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="https://www.theodinproject.com" target="_blank" rel="noopener noreferrer">Go</a></div>
+                                    <a href="https://www.theodinproject.com" class="btn btn-lg btn-block btn-outline-primary mt-auto" role="button" target="_blank" rel="noopener noreferrer">
+                                        Go
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <!-- CARD -->
                         <div class="col-lg-6 col-xl-4">
                             <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
+                                <div class="card-body p-5 d-flex flex-column">
                                     <div class="mb-3">
                                         <span class="display-6 fw-bold">CIE</span>
                                     </div>
@@ -204,14 +204,16 @@
                                             find a co-founder
                                         </li>
                                     </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="https://innovation.txstate.edu" target="_blank" rel="noopener noreferrer">Go</a></div>
+                                    <a href="https://innovation.txstate.edu" class="btn btn-lg btn-block btn-outline-primary mt-auto" role="button" target="_blank" rel="noopener noreferrer">
+                                        Go
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <!-- CARD -->
                         <div class="col-lg-6 col-xl-4">
                             <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
+                                <div class="card-body p-5 d-flex flex-column">
                                     <div class="mb-3">
                                         <span class="display-6 fw-bold">Open Source</span>
                                     </div>
@@ -228,14 +230,16 @@
                                             make your first pull request
                                         </li>
                                     </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="https://www.firsttimersonly.com" target="_blank" rel="noopener noreferrer">Go</a></div>
+                                    <a href="https://www.firsttimersonly.com" class="btn btn-lg btn-block btn-outline-primary mt-auto" role="button" target="_blank" rel="noopener noreferrer">
+                                        Go
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <!-- CARD -->
                         <div class="col-lg-6 col-xl-4">
                             <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
+                                <div class="card-body p-5 d-flex flex-column">
                                     <div class="mb-3">
                                         <span class="display-6 fw-bold">Leetcode</span>
                                     </div>
@@ -252,14 +256,16 @@
                                             learn algorithms
                                         </li>
                                     </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="#https://leetcode.com/problemset/all/" target="_blank" rel="noopener noreferrer">Go</a></div>
+                                    <a href="#https://leetcode.com/problemset/all/" class="btn btn-lg btn-block btn-outline-primary mt-auto" role="button" target="_blank" rel="noopener noreferrer">
+                                        Go
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <!-- CARD -->
                         <div class="col-lg-6 col-xl-4">
                             <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
+                                <div class="card-body p-5 d-flex flex-column">
                                     <div class="mb-3">
                                         <span class="display-6 fw-bold">Grokking the Coding Interview</span>
                                     </div>
@@ -280,14 +286,16 @@
                                             (not free)
                                         </li>
                                     </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="https://www.educative.io/courses/grokking-the-coding-interview" target="_blank" rel="noopener noreferrer">Go</a></div>
+                                    <a href="https://www.educative.io/courses/grokking-the-coding-interview" class="btn btn-lg btn-block btn-outline-primary mt-auto" role="button" target="_blank" rel="noopener noreferrer">
+                                        Go
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <!-- CARD -->
                         <div class="col-lg-6 col-xl-4">
                             <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
+                                <div class="card-body p-5 d-flex flex-column">
                                     <div class="mb-3">
                                         <span class="display-6 fw-bold">Cracking the Coding Interview</span>
                                     </div>
@@ -304,14 +312,16 @@
                                             (not free)
                                         </li>
                                     </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850" target="_blank" rel="noopener noreferrer">Go</a></div>
+                                    <a href="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850" class="btn btn-lg btn-block btn-outline-primary mt-auto" role="button" target="_blank" rel="noopener noreferrer">
+                                        Go
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <!-- CARD -->
                         <div class="col-lg-6 col-xl-4">
                             <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
+                                <div class="card-body p-5 d-flex flex-column">
                                     <div class="mb-3">
                                         <span class="display-6 fw-bold">Princeton Algorithms</span>
                                     </div>
@@ -324,14 +334,16 @@
                                             learn algorithms
                                         </li>
                                     </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="https://www.coursera.org/learn/algorithms-part1" target="_blank" rel="noopener noreferrer">Go</a></div>
+                                    <a href="https://www.coursera.org/learn/algorithms-part1" class="btn btn-lg btn-block btn-outline-primary mt-auto" role="button" target="_blank" rel="noopener noreferrer">
+                                        Go
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <!-- CARD -->
                         <div class="col-lg-6 col-xl-4">
                             <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
+                                <div class="card-body p-5 d-flex flex-column">
                                     <div class="mb-3">
                                         <span class="display-6 fw-bold">MIT Algorithms</span>
                                     </div>
@@ -348,14 +360,16 @@
                                             includes notes, hw, exams, and solutions
                                         </li>
                                     </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/" target="_blank" rel="noopener noreferrer">Go</a></div>
+                                    <a href="https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/" class="btn btn-lg btn-block btn-outline-primary mt-auto" role="button" target="_blank" rel="noopener noreferrer">
+                                        Go
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <!-- CARD -->
                         <div class="col-lg-6 col-xl-4">
                             <div class="card mb-5 mb-xl-0">
-                                <div class="card-body p-5">
+                                <div class="card-body p-5 d-flex flex-column">
                                     <div class="mb-3">
                                         <span class="display-6 fw-bold">MIT Missing Semester</span>
                                     </div>
@@ -368,7 +382,9 @@
                                             learn Git, debugging, shell, and others
                                         </li>
                                     </ul>
-                                    <div class="d-grid"><a class="btn btn-outline-primary" href="https://missing.csail.mit.edu" target="_blank" rel="noopener noreferrer">Go</a></div>
+                                    <a href="https://missing.csail.mit.edu" class="btn btn-lg btn-block btn-outline-primary mt-auto" role="button" target="_blank" rel="noopener noreferrer">
+                                        Go
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -378,19 +394,7 @@
             </section>
         </main>
         <!-- Footer-->
-        <footer class="bg-dark py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Last Updated April 2022</div></div>
-                    <div class="col-auto">
-                        <a class="link-light small" href="https://cs.txstate.edu" target="_blank" rel="noopener noreferrer">TXST CS</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="https://github.com/smithwithatypo/txst_cs_guide" target="_blank" rel="noopener noreferrer">Github</a>
-
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <footer-component></footer-component>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
